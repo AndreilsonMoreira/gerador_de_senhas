@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 40px;
+    background-color: black;
+  }
+
+  .container {
+    max-width: 100%;
+    margin: 0 auto;
+    background: rgb(56, 56, 56);
+    padding: 20px 0px 20px 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  h2 {
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+  }
+
+  .input-group {
+    margin-bottom: 15px;
+    
+  }
+
+  .GerarSenha {  
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 15px;
+  }
+
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+  }
+
+  .input-group input {
+    width: 85%;
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-top: 5px;
+  }
+  
+  .input-group select {
+    width: 25vh;    
+    padding: 15px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-top: 5px;
+  }
+
+  .input-group .button {
+    display: flex;
+    align-items: center;
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    gap: 8px;    
+  }
+
+  .input-group button:hover {
+    background-color: #0056b3;
+  }
+
+  #senhaGerada {
+    font-weight: bold;
+    color: green;
+    margin-top: 10px;
+  }
+
+  .feedback {
+    color: #28a745;
+    margin-top: 10px;
+  }
+
+  .error {
+    color: #dc3545;
+  }
+
+  .eye-icon {
+    margin: 0% 0% 0% -10%;    
+    cursor: pointer;    
+  }
+
+  .padlock-icon { 
+    display: flex; justify-content: center; align-items: center; 
+  }
+
+  .selectServico {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    width: 90%;    
+  }

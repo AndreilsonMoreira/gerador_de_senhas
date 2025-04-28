@@ -1,0 +1,34 @@
+{
+  "name": "GeradordeSenhas",
+  "version": "1.0.0",
+  "description": "App para gerar senhas seguras",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "build": {
+    "appId": "com.andreilson.geradordesenhas",
+    "files": [
+      "**/*"
+    ],
+    "directories": {
+      "buildResources": "src/createPassword/assets"
+    },
+    "win": {
+      "target": "nsis",
+      "icon": "icon.ico"
+    }
+  },
+  "author": "Andreilson Moreira",
+  "license": "ISC",
+  "dependencies": {
+    "blueimp-md5": "^2.19.0"    
+  },
+  "devDependencies": {
+    "electron-reload": "^2.0.0-alpha.1",
+    "electron": "^35.2.1",
+    "electron-builder": "^26.0.12"
+  }
+}
